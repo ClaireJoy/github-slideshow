@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Price Grid Component</title>
+    <style>
+        body{
+            background: hsl(204, 43%, 93%)
+        }
+        .backgroundBox1{
+            max-width: 600px;
+            padding: 30px 60px 60px 60px;
+            margin: 125px auto;
+            background:white;
+            border-radius: 6px;
+            box-shadow:2px 2px 10px 2px rgba(0, 0, 0, 0.2);
+            font-family: karla, sans-serif;
+            font-weight: 700px;
+            line-height: 160%;
+        }
+        .box{
+            display: flex;
+        }
+        .boxOne{
+            flex: 1 1 auto;
+            background: #2BB3B1;
+            padding: 30px 0 30PX 45px;
+            margin: 0 0 -60px -60px;
+            border-bottom-left-radius: 6px ;
+            color:white;
+        }
+        .boxTwo{
+            flex: 1 1 auto;
+            background: #4ABEBD;
+            padding: 30px 55px 0 55px;
+            margin: 0 -60px -60px 0;
+            border-bottom-right-radius: 6px;
+            color:white;
+        }
+        h1{
+            color: #2BB3B1
+        }
+        .titleOne{
+            color:  #BFDF32;
+        }
+        li{
+            list-style: none;
+            font-size: 16px;
+        }
+        .paraTwo{
+            font-stretch:ultra-expanded;
+        }
+        .price{
+            font-size: 38px;
+        }
+        button{
+            display: block;
+            background: #BFDF32;
+            color:white;
+            margin: 60px 20px 10px 10px;
+            padding: 15px 95px 15px 95px;
+            font-size: 18px;
+            border-radius: 6px;
+            border:transparent;
+            transition: all 200ms ease;
+            box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.2);
+        }
+        button:hover{
+            background: white;
+            color:#BFDF32;
+            cursor:pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="backgroundBox1">
+    <h1>
+        Join our community
+    </h1>
+    <h2 class="titleOne">
+        30-days, hassle-free money back garantee
+    </h2>
+    <p class= "paraOne">
+        Gain access to our full library of tutorials along with experts code reviews.
+        <br />
+        Perfect for any developers who are serious about honing their skills. 
+    </p>
+    <div class="box">
+        <div class="boxOne">
+<h2>
+    Monthly subscription
+</h2>
+<p class="paraTwo">
+    <strong class="price">$29</strong> per month
+    <br />
+    Full access for less than 1$ a day
+</p>
+<button>
+    <strong> Sign Up</strong> 
+</button>
+        </div>
+        <div class="boxTwo">
+            <h2>
+                Why Us
+            </h2>
+            <p>
+                Tutorials by industry experts
+            <br />
+                Peer & expert code reviews
+            <br />
+                Coding exercises
+            <br />
+                Access to our Github repos
+            <br />
+                Community forum
+            <br />
+                Flashcards decks
+            <br />
+                New videos every week
+            </p>   
+        </div>
+    </div>
+    
+    </div>
+</body>
+</html>
